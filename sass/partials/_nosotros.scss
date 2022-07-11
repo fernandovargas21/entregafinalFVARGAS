@@ -1,0 +1,52 @@
+/*NOSOTROS*/
+#headerdiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f9f9e89a;
+}
+#footerdiv{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 3%;
+    background-color: #f9f9e88c;
+    text-align: center;
+    font-size: smaller;
+   
+}
+#carta1 {
+    transition: border 729ms ease-out, border-radius 729ms ease-out;
+  }
+  
+#carta1:hover {
+    border: 8px solid  rgba(148, 86, 4, 0.541);
+   border-radius: 40px;
+  }
+  #carta2 {
+    transition: border 729ms ease-out, border-radius 729ms ease-out;
+  }
+  
+#carta2:hover {
+    border: 8px solid  rgba(148, 86, 4, 0.541);
+   border-radius: 40px;
+  }
+  #vidnos {
+    transition: border 729ms ease-out, border-radius 729ms ease-out;
+  }
+  
+#vidnos:hover {
+    border: 8px solid  rgba(148, 86, 4, 0.541);
+   border-radius: 40px;
+  }
+  
+  
+ /*MEDIAQ NOSOTROS*/ 
+
+@media only screen and (max-width: 920px) {
+    #footerdiv{
+        flex-direction: column;
+    }
+    }

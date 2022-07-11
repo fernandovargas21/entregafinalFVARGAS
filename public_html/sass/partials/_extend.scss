@@ -1,0 +1,8 @@
+.btn {
+    border-radius: 20px;
+}
+.btn--click{
+    @extend .btn;
+    background-color: rgb(212, 35, 35);
+    color: rgb(26, 228, 26);
+}

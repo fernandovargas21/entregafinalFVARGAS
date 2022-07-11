@@ -1,0 +1,91 @@
+/*SERVICIOS*/
+.encabezadoservicios {
+    background-image: url(../assets/_luxury-private-jet-ready-for-boarding-with-snow-peak-mountains-in-background_tcm71-44978.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px; }
+    main .encabezadoservicios h1 {
+      font-size: 60px;
+      -webkit-text-fill-color: #fff;
+      -webkit-text-stroke: black 2px; }
+  
+  main .servicios .prueba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; }
+    main .servicios .prueba .avia {
+      position: relative;
+      width: 1100px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      main .servicios .prueba .avia .cion {
+        position: relative;
+        width: 275px;
+        height: 275px;
+        overflow: hidden;
+        transition: 0.5s; }
+        main .servicios .prueba .avia .cion:hover {
+          z-index: 1;
+          transform: scale(1.1);
+          box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5); }
+          main .servicios .prueba .avia .cion:hover .ejecu:before {
+            opacity: 1; }
+          main .servicios .prueba .avia .cion:hover .tiva h2 {
+            transform: translateY(0);
+            transition-delay: 0.6s; }
+          main .servicios .prueba .avia .cion:hover .tiva p {
+            transform: translateY(0);
+            transition-delay: 0.7s; }
+        main .torneos .prueba .avia .cion .ejecu {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+        }
+          main .servicios .prueba .avia .cion .ejecu:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: linear-gradient(180deg, rgb(76, 47, 241), rgb(8, 51, 18));
+            mix-blend-mode: multiply;
+            opacity: 0;
+            transition: 0.5s; }
+          main .servicios .prueba .avia .cion .ejecu img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain; }
+        main .servicios .prueba .avia .cion .tiva {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 2;
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+          text-align: center;
+        }
+          main .servicios .prueba .avia .cion .tiva h2 {
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            font-size: 20px;
+            transform: translateY(300px);
+            transition: 0.5s; }
+          main .servicios .prueba .avia .cion .tiva p {
+            color: #fff;
+            transform: translateY(300px);
+            transition: 0.5s;
+            font-size: 14px; }

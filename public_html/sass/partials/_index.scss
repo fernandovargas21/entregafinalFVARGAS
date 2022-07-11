@@ -1,0 +1,58 @@
+/*index*/
+#navid {
+    background-color: $colorNavid;
+ 
+}
+
+#carrusel {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: row;
+    text-align: center;
+}
+
+#padd {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#iframe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col-md-12 {
+    padding-top: 1%;
+}
+
+.row{
+    padding: 1%;
+    &__p{
+        display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    }
+    &__navbar{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+    }
+}
+.footerdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #56716296;
+  }
+
+/*fin-index*/

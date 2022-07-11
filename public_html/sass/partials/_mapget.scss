@@ -1,0 +1,14 @@
+$estilos: (
+    color: rgba(197, 13, 13, 0.26),
+    centro: center,
+    tFuente: 1rem,
+    1%:1%,
+    deco: none,
+);
+.legal{
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, 1%);
+    font-size:map-get($estilos, tFuente);
+    text-decoration: map-get($estilos, deco);
+}

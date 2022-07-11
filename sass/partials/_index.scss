@@ -1,0 +1,39 @@
+/*INDEX*/
+#navbarindex{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+#main{
+  text-align: center;
+  color:rgba(20, 24, 238, 0.521);
+  text-shadow:1px 1px 2px #999;
+  padding-top: 5%;
+}
+.video-container{
+  position: absolute;
+  z-index: -1;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+.video-container video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#footerindex{
+  font-size: small;
+  text-align: center;
+}
+
+
+
+
+
+

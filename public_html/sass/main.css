@@ -1,0 +1,153 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  list-style: none;
+}
+
+body {
+  background-image: url(../assets/why-is-sky-blue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.legal {
+  background-color: rgba(197, 13, 13, 0.26);
+  text-align: center;
+  padding: 1%;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.btn, .btn--click {
+  border-radius: 20px;
+}
+
+.btn--click {
+  background-color: #d42323;
+  color: #1ae41a;
+}
+
+.iframeclass {
+  width: 100%;
+  height: 100%;
+}
+
+/*index*/
+#navid {
+  background-color: rgba(109, 79, 8, 0.541);
+}
+
+#carrusel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+#padd {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col-md-12 {
+  padding-top: 1%;
+}
+
+.row {
+  padding: 1%;
+}
+
+.row__p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 1%;
+}
+
+.row__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1%;
+}
+
+.footerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  background-color: #56716296;
+}
+
+/*fin-index*/
+/*servicios*/
+.col-md-4 {
+  padding: 1%;
+}
+
+#rowadj {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-md-6 {
+  padding: 1%;
+}
+/*# sourceMappingURL=main.css.map */

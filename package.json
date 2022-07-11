@@ -1,0 +1,25 @@
+{
+  "name": "in-the-air-aeronautical-services",
+  "version": "1.0.0",
+  "description": "ITAAS es una web de servicios y contrataciones de los mismos relacionados a la aviacion ejecutiva y sanitaria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss styles/style.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandovargas21/ITAAS-bootstrap.git"
+  },
+  "author": "Fernando Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandovargas21/ITAAS-bootstrap/issues"
+  },
+  "homepage": "https://github.com/fernandovargas21/ITAAS-bootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^1.3.3"
+  }
+}

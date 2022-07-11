@@ -1,0 +1,367 @@
+/*RESET*/
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  list-style: none;
+}
+
+body {
+  background-color: #8a8080;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*BTN WHATSAPP*/
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 25px;
+  right: 25px;
+  -webkit-transition: ease 0.3s;
+  -webkit-transition: ease 5s;
+  transition: ease 5s;
+  -webkit-animation: efecto 1.2s infinite;
+  animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.boton {
+  width: 40px;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes efecto {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+/*MAPGET*/
+.legal {
+  text-align: center;
+  padding: 1%;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/*INDEX*/
+#navbarindex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#main {
+  text-align: center;
+  color: rgba(20, 24, 238, 0.521);
+  text-shadow: 1px 1px 2px #999;
+  padding-top: 5%;
+}
+
+.video-container {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#footerindex {
+  font-size: small;
+  text-align: center;
+}
+
+/*SERVICIOS*/
+.encabezadoservicios {
+  background-image: url(../assets/_luxury-private-jet-ready-for-boarding-with-snow-peak-mountains-in-background_tcm71-44978.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+main .encabezadoservicios h1 {
+  font-size: 60px;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: black 2px;
+}
+
+main .servicios .prueba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50vh;
+}
+
+main .servicios .prueba .avia {
+  position: relative;
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .servicios .prueba .avia .cion {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .servicios .prueba .avia .cion:hover {
+  z-index: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+main .servicios .prueba .avia .cion:hover .ejecu:before {
+  opacity: 1;
+}
+
+main .servicios .prueba .avia .cion:hover .tiva h2 {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+main .servicios .prueba .avia .cion:hover .tiva p {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+
+main .torneos .prueba .avia .cion .ejecu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+main .servicios .prueba .avia .cion .ejecu:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4c2ff1), to(#083312));
+  background: linear-gradient(180deg, #4c2ff1, #083312);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .servicios .prueba .avia .cion .ejecu img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .servicios .prueba .avia .cion .tiva {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+main .servicios .prueba .avia .cion .tiva h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+  -webkit-transform: translateY(300px);
+          transform: translateY(300px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .servicios .prueba .avia .cion .tiva p {
+  color: #fff;
+  -webkit-transform: translateY(300px);
+          transform: translateY(300px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+/*FLOTA*/
+#textos {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#techf {
+  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+}
+
+#techf:hover {
+  background-color: rgba(237, 12, 12, 0.29);
+}
+
+/*NOSOTROS*/
+#headerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f9f9e89a;
+}
+
+#footerdiv {
+  padding-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 3%;
+  background-color: #f9f9e88c;
+  text-align: center;
+  font-size: smaller;
+}
+
+#carta1 {
+  -webkit-transition: border 729ms ease-out, border-radius 729ms ease-out;
+  transition: border 729ms ease-out, border-radius 729ms ease-out;
+}
+
+#carta1:hover {
+  border: 8px solid rgba(148, 86, 4, 0.541);
+  border-radius: 40px;
+}
+
+#carta2 {
+  -webkit-transition: border 729ms ease-out, border-radius 729ms ease-out;
+  transition: border 729ms ease-out, border-radius 729ms ease-out;
+}
+
+#carta2:hover {
+  border: 8px solid rgba(148, 86, 4, 0.541);
+  border-radius: 40px;
+}
+
+#vidnos {
+  -webkit-transition: border 729ms ease-out, border-radius 729ms ease-out;
+  transition: border 729ms ease-out, border-radius 729ms ease-out;
+}
+
+#vidnos:hover {
+  border: 8px solid rgba(148, 86, 4, 0.541);
+  border-radius: 40px;
+}
+
+/*MEDIAQ NOSOTROS*/
+@media only screen and (max-width: 920px) {
+  #footerdiv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/*COTIZAR*/
+.encabezadocotizar {
+  background-image: url(../assets/descargactotizar.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+main .encabezadocotizar h1 {
+  font-size: 60px;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke: black 2px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,13 @@
+/*MAPGET*/
+$estilos: (
+    centro: center,
+    tFuente: 1rem,
+    1%:1%,
+    deco: none,
+);
+.legal{
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, 1%);
+    font-size:map-get($estilos, tFuente);
+    text-decoration: map-get($estilos, deco);
+}
